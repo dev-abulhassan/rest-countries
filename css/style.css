@@ -7,6 +7,20 @@
 .font-family {
    font-family: 'Raleway', sans-serif;
 }
-.text-center{
+
+.text-center {
    text-align: center;
+}
+.country{
+   border: 1px solid orange;
+   padding: 10px 30px;
+   border-radius: 5px;
+   background-color: rgba(255, 0, 179, 0.486);
+}
+.countries {
+   margin: auto;
+   display: grid;
+   gap: 10px;
+   padding: 10px 30px;
+   grid-template-columns: repeat(3, 1fr);
 }
